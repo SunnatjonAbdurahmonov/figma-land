@@ -15,8 +15,8 @@ body ul {
 
 body .container .top {
   background: #181818;
-  height: 250vh;
-  padding: 30px 150px;
+  height: 180vh;
+  padding: 30px 0;
 }
 
 body .container .top .navbar {
@@ -26,6 +26,7 @@ body .container .top .navbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 150px;
 }
 
 body .container .top .navbar .list {
@@ -165,7 +166,7 @@ body .container .top .top-text .text-description {
       align-self: center;
   -ms-flex-positive: 0;
       flex-grow: 0;
-  margin: 10px 0px;
+  margin: 20px 0 100px 0;
 }
 
 body .container .top .top-text .buttons {
@@ -221,5 +222,71 @@ body .container .top .top-text .buttons .learn-more {
 body .container .top .top-text .buttons .learn-more:hover {
   background: #fff;
   color: #181818;
+}
+
+body .container .top .bottom-img {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 1;
+  background-image: url(../images/screens.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+body .container .top .bottom-img .bg-c {
+  position: absoulte;
+  bottom: 0;
+  height: 650px;
+  width: 100%;
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(66.15%, #0E0E0E));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+  z-index: 99;
+}
+
+body .container .section-title {
+  text-align: center;
+}
+
+body .container .section-title .title-main-text,
+body .container .section-title .title-description {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+body .container .section-title .title-main-text {
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+body .container .section-title .title-description {
+  font-size: 20px;
+  line-height: 30px;
+  width: 602px;
+  margin: 10px auto;
+}
+
+body .container .features {
+  height: 1172px;
+  background: #181818;
+  margin: 70px 0;
+  padding: 62px 0;
 }
 /*# sourceMappingURL=main.css.map */
