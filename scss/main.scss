@@ -179,7 +179,6 @@ body {
                 letter-spacing: 0.2px;
                 color: #FFFFFF;
                 margin: 0;
-                text-transform: uppercase;
             }
             .title-description {
                 font-size: 20px;
@@ -314,6 +313,200 @@ body {
                         line-height: 25px;
                         letter-spacing: 0.2px;
                         color: #FFFFFF;
+                        transition: all .3s linear;
+                        &:hover {
+                            background: #1d30ff;
+                        }
+                    }
+                }
+            }
+        }
+        .gallery {
+            padding: 150px 150px 44px 150px;
+            background-color: #181818;
+            .gallery-row {
+                display: flex;
+                margin-top: 44px;
+                .gallery-img {
+                    border-radius: 12px;
+                    margin-right: 33px;
+                    img {
+                        border-radius: 12px;
+                    }
+                }
+            }
+            .row-1 {
+                justify-content: center;
+                .gallery-img-4 {
+                    margin: 0;
+                }
+            }
+            .row-2 {
+                margin-top: 44px;
+                justify-content: center;
+                .gallery-img-7 {
+                    margin: 0;
+                }
+            }
+            .see-more {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 159px;
+                height: 52px;
+                border: 1px solid #FFFFFF;
+                color: #fff;
+                box-sizing: border-box;
+                transition: all .3s linear;
+                margin: 44px auto;
+                &:hover {
+                    background: #fff;
+                    color: #181818;
+                }
+            }
+        }
+        .partners {
+            background-color: #181818;
+            padding: 0 150px 100px 150px;
+            justify-content: center;
+            .partners-brands {
+                margin: 60px auto;
+                display: flex;
+                justify-content: center;
+            }
+            .partners-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 176px;
+                height: 52px;
+                border: 1px solid #FFFFFF;
+                color: #fff;
+                box-sizing: border-box;
+                transition: all .3s linear;
+                margin: 44px auto;
+                &:hover {
+                    background: #fff;
+                    color: #181818;
+                }
+            }
+        }
+        .testimonials {
+            background-color: #181818;
+            padding: 0 150px 100px 150px;
+            .testimonials-main {
+                margin-top: 44px;
+                .user-row {
+                    display: flex;
+                    justify-content: center;
+                    .user-info-card {
+                        display: flex;
+                        flex-direction: column;
+                        width: 430px;
+                        height: 304px;
+                        border: 1px solid #DEDEDE;
+                        box-sizing: border-box;
+                        border-radius: 10px;
+                        padding: 40px 84px 40px 40px;
+                        .user {
+                            display: flex;
+                            img {
+                                width: auto;
+                                height: auto;
+                            }
+                            .user__ {
+                                margin-left: 13px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                h5,
+                                p {
+                                    margin: 0;
+                                }
+                                h5 {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.2px;
+                                    color: #FFFFFF;
+                                }
+                                p {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.1px;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                        .user-info {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.2px;
+                            color: #fff;
+                        }
+                    }
+                    .user-info-card-1 {
+                        height: 328px;
+                    }
+                    .user-info-card-2 {
+                        margin-left: 23px;
+                    }
+                    .user-info-card-3 {
+                        margin-top: 20px;
+                        margin-right: 23px;
+                    }
+                }
+            }
+        }
+        .openType {
+            padding: 70px 150px;
+            background-color: #181818;
+            .openType-main {
+                display: flex;
+                background-color: #343434;
+                border-radius: 33px;
+                position: relative;
+                height: 365px;
+                .openType-text {
+                    display: inline-block;
+                    padding: 74px 0 0 60px;
+                    .openType-title {
+                        width: 380px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 38px;
+                        line-height: 62px;
+                        letter-spacing: 0.2px;
+                        color: #FFFFFF;
+                        margin: 0;
+                    }
+                    .try-for-free {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 202px;
+                        height: 52px;
+                        margin-top: 37px;
+                        background-color: #4452FE;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 25px;
+                        letter-spacing: 0.2px;
+                        color: #FFFFFF;
+                    }
+                }
+                .openType-img {
+                    position: absolute;
+                    right: 0;
+                    bottom: -3px;
+                    img {
+                        border-radius: 0 0 33px 0;
                     }
                 }
             }
