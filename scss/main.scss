@@ -189,10 +189,134 @@ body {
             }
         }
         .features {
-            height: 1172px;
+            height: 872px;
             background: #181818;
-            margin: 70px 0;
-            padding: 62px 0;
+            margin: 70px 0 0 0;
+            padding: 62px 0 0 0;
+            .feature-main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 30px 150px;
+                .col-4 {
+                    .column-row {
+                        .text-block {
+                            margin-bottom: 70px;
+                            .title-row {
+                                display: flex;
+                                align-items: center;
+                                .text-block-title {
+                                    padding-right: 50%;
+                                    font-style: normal;
+                                    margin: 0 0 0 10px;
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    letter-spacing: 0.1px;
+                                    color: #FFFFFF;
+                                }
+                            }
+                            .text-block-description {
+                                width: 59%;
+                                display: inline-block;
+                                flex: none;
+                                order: 0;
+                                align-self: center;
+                                flex-grow: 0;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0.2px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contents {
+            padding: 60px 150px 0 150px;
+            background-color: #181818;
+            .contents-main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .col-6:nth-child(1) {
+                    margin-right: 33px;
+                    .contents-button {
+                        margin-top: 30px;
+                    }
+                }
+                .col-6:nth-child(2) {
+                    .contents-button {
+                        margin-top: 15px;
+                        width: 190px;
+                    }
+                    .img-block {
+                        bottom: -10px;
+                    }
+                }
+                .col-6 {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    background-color: #fff;
+                    width: 476px;
+                    height: 624px;
+                    position: relative;
+                    padding: 30px 0;
+                    border: 1px solid #D3D3D3;
+                    box-sizing: border-box;
+                    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+                    border-radius: 10px;
+                    .img-block {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        bottom: 30px;
+                        width: 100%;
+                        img {
+                            display: inline-block;
+                            width: auto;
+                            height: auto;
+                        }
+                    }
+                    .contents-title {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.1px;
+                    }
+                    .contents-description {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color: #5C5C5C;
+                        padding: 0 110px;
+                    }
+                    .contents-button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 auto;
+                        width: 157px;
+                        height: 52px;
+                        background: #4452FE;
+                        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 25px;
+                        letter-spacing: 0.2px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
         }
     }
 }
